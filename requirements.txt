@@ -1,0 +1,37 @@
+# Phase 1-2: data. Runs on CPU, including on a laptop.
+PyMuPDF>=1.24
+regex>=2024.0
+numpy>=1.26
+tqdm>=4.66
+datasets>=2.20
+huggingface_hub>=0.24
+pandas>=2.0
+pyarrow>=15.0
+
+# Language identification. fasttext-wheel avoids the source build that plain
+# `fasttext` requires on Windows.
+fasttext-wheel>=0.9.2 ; platform_system == "Windows"
+fasttext>=0.9.2 ; platform_system != "Windows"
+
+# Phase 3-6: modelling. Needs a GPU in practice.
+torch>=2.3
+transformers>=4.44
+tokenizers>=0.19
+sentencepiece>=0.2
+accelerate>=0.33
+peft>=0.12
+bitsandbytes>=0.43        # adamw_bnb_8bit; no Turing wheels before 0.43
+sentence-transformers>=3.0   # LaBSE, for round-trip translation filtering
+
+# Phase 7: evaluation
+sacrebleu>=2.4            # chrF++
+
+# Tests
+pytest>=8.0
+
+# Kaggle T4 notes:
+#   - Turing (SM 7.5) has no bf16 and no FlashAttention-2. kabyl.training detects
+#     this and selects fp16 + sdpa; do not override it.
+#   - `unsloth` roughly doubles throughput and cuts memory on T4 and is worth
+#     installing there, but it pins its own torch/transformers versions, so it is
+#     deliberately not listed here. Install it inside the Kaggle notebook only.

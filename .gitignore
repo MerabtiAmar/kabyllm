@@ -1,0 +1,26 @@
+# Data: copyrighted books, private chat corpus and large built corpora are never versioned
+data/
+*.pdf
+*.txt
+!requirements.txt
+*.txt.gz
+*.jsonl
+*.parquet
+discussion*.txt
+
+# Models and checkpoints
+*.pt
+*.bin
+*.safetensors
+*.gguf
+checkpoints/
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store

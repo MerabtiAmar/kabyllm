@@ -1,0 +1,18 @@
+[
+  {
+    "name": "facebook/nllb-200-distilled-600M",
+    "tokens_per_word": 2.269407835349341,
+    "tokens_per_char": 0.37419996626214314,
+    "vocab_size": 256204,
+    "unk_rate": 0.0024396226540177534,
+    "diacritic_penalty": 0.9105591540319106
+  },
+  {
+    "name": "Qwen/Qwen3-1.7B-Base",
+    "tokens_per_word": 2.7459830294276943,
+    "tokens_per_char": 0.45278188475545017,
+    "vocab_size": 151669,
+    "unk_rate": 0.0,
+    "diacritic_penalty": 1.0955554686835334
+  }
+]

@@ -1,0 +1,264 @@
+{
+  "per_source": {
+    "ummto": {
+      "seen": 621825,
+      "kept": 280263,
+      "words": 6488551,
+      "top_reject": "too_short",
+      "rejections": {
+        "too_short": 246787,
+        "not_kabyle_charset": 72887,
+        "high_oov": 14638,
+        "low_alpha": 3060,
+        "words_too_short": 2663,
+        "punct_heavy": 820,
+        "words_too_long": 208,
+        "char_run": 107,
+        "adhoc_orthography": 308,
+        "digit_heavy": 84
+      }
+    },
+    "ubouira": {
+      "seen": 303283,
+      "kept": 149014,
+      "words": 3519913,
+      "top_reject": "too_short",
+      "rejections": {
+        "not_kabyle_charset": 40758,
+        "too_short": 106091,
+        "low_alpha": 2405,
+        "high_oov": 3152,
+        "punct_heavy": 177,
+        "adhoc_orthography": 100,
+        "words_too_short": 1382,
+        "digit_heavy": 117,
+        "words_too_long": 67,
+        "char_run": 20
+      }
+    },
+    "hca": {
+      "seen": 169758,
+      "kept": 87663,
+      "words": 2447076,
+      "top_reject": "too_short",
+      "rejections": {
+        "too_short": 60031,
+        "not_kabyle_charset": 15392,
+        "high_oov": 4112,
+        "adhoc_orthography": 198,
+        "low_alpha": 1686,
+        "punct_heavy": 144,
+        "words_too_short": 299,
+        "words_too_long": 194,
+        "digit_heavy": 10,
+        "char_run": 29
+      }
+    },
+    "tatoeba_mono": {
+      "seen": 756774,
+      "kept": 265296,
+      "words": 1777789,
+      "top_reject": "too_short",
+      "rejections": {
+        "too_short": 430808,
+        "not_kabyle_charset": 57484,
+        "words_too_short": 226,
+        "high_oov": 2944,
+        "adhoc_orthography": 10,
+        "punct_heavy": 2,
+        "low_alpha": 3,
+        "digit_heavy": 1
+      }
+    },
+    "raw_text": {
+      "seen": 207058,
+      "kept": 151737,
+      "words": 3116645,
+      "top_reject": "too_short",
+      "rejections": {
+        "not_kabyle_charset": 16720,
+        "too_short": 30384,
+        "low_alpha": 233,
+        "high_oov": 7628,
+        "adhoc_orthography": 145,
+        "too_long": 2,
+        "words_too_short": 81,
+        "punct_heavy": 68,
+        "char_run": 34,
+        "digit_heavy": 10,
+        "words_too_long": 16
+      }
+    },
+    "datasets_mono": {
+      "seen": 9228,
+      "kept": 9053,
+      "words": 3089667,
+      "top_reject": "not_kabyle_charset",
+      "rejections": {
+        "not_kabyle_charset": 137,
+        "char_run": 18,
+        "repeated_lines": 15,
+        "low_alpha": 3,
+        "high_oov": 1,
+        "punct_heavy": 1
+      }
+    },
+    "wikipedia": {
+      "seen": 5830,
+      "kept": 5122,
+      "words": 548154,
+      "top_reject": "not_kabyle_charset",
+      "rejections": {
+        "not_kabyle_charset": 505,
+        "low_alpha": 3,
+        "words_too_short": 1,
+        "repeated_lines": 14,
+        "char_run": 2,
+        "too_short": 182,
+        "digit_heavy": 1
+      }
+    },
+    "tales": {
+      "seen": 874,
+      "kept": 678,
+      "words": 6927,
+      "top_reject": "too_short",
+      "rejections": {
+        "high_oov": 24,
+        "not_kabyle_charset": 62,
+        "too_short": 109,
+        "low_alpha": 1
+      }
+    },
+    "tatoeba_en": {
+      "seen": 240056,
+      "kept": 93862,
+      "words": 651936,
+      "top_reject": "too_short",
+      "rejections": {
+        "too_short": 130034,
+        "not_kabyle_charset": 15434,
+        "high_oov": 547,
+        "words_too_short": 165,
+        "adhoc_orthography": 7,
+        "low_alpha": 4,
+        "punct_heavy": 2,
+        "digit_heavy": 1
+      }
+    },
+    "tm_en": {
+      "seen": 121725,
+      "kept": 37687,
+      "words": 480920,
+      "top_reject": "too_short",
+      "rejections": {
+        "too_short": 67447,
+        "not_kabyle_charset": 14815,
+        "high_oov": 849,
+        "words_too_short": 219,
+        "punct_heavy": 383,
+        "low_alpha": 222,
+        "repeated_lines": 1,
+        "adhoc_orthography": 64,
+        "digit_heavy": 28,
+        "words_too_long": 9,
+        "char_run": 1
+      }
+    },
+    "translatewiki": {
+      "seen": 7085,
+      "kept": 1708,
+      "words": 20747,
+      "top_reject": "too_short",
+      "rejections": {
+        "too_short": 4584,
+        "not_kabyle_charset": 687,
+        "low_alpha": 28,
+        "high_oov": 32,
+        "punct_heavy": 39,
+        "words_too_short": 4,
+        "adhoc_orthography": 3
+      }
+    },
+    "toponym_sents": {
+      "seen": 32024,
+      "kept": 22471,
+      "words": 134701,
+      "top_reject": "too_short",
+      "rejections": {
+        "too_short": 6795,
+        "not_kabyle_charset": 2591,
+        "high_oov": 137,
+        "adhoc_orthography": 30
+      }
+    },
+    "wiki_v0": {
+      "seen": 26332,
+      "kept": 14572,
+      "words": 626356,
+      "top_reject": "too_short",
+      "rejections": {
+        "not_kabyle_charset": 2463,
+        "too_short": 9088,
+        "low_alpha": 90,
+        "digit_heavy": 10,
+        "high_oov": 30,
+        "adhoc_orthography": 15,
+        "words_too_short": 46,
+        "punct_heavy": 9,
+        "repeated_lines": 7,
+        "words_too_long": 2
+      }
+    },
+    "kab_latn_v0": {
+      "seen": 40809,
+      "kept": 21366,
+      "words": 299923,
+      "top_reject": "too_short",
+      "rejections": {
+        "too_short": 14641,
+        "low_alpha": 48,
+        "not_kabyle_charset": 4690,
+        "digit_heavy": 32,
+        "adhoc_orthography": 14,
+        "punct_heavy": 1,
+        "words_too_short": 11,
+        "words_too_long": 1,
+        "high_oov": 5
+      }
+    },
+    "feraoun": {
+      "seen": 644,
+      "kept": 531,
+      "words": 31769,
+      "top_reject": "too_short",
+      "rejections": {
+        "too_short": 89,
+        "not_kabyle_charset": 20,
+        "high_oov": 3,
+        "words_too_short": 1
+      }
+    },
+    "dahmoune": {
+      "seen": 1270,
+      "kept": 929,
+      "words": 9721,
+      "top_reject": "too_short",
+      "rejections": {
+        "too_short": 200,
+        "not_kabyle_charset": 128,
+        "high_oov": 11,
+        "words_too_short": 1,
+        "adhoc_orthography": 1
+      }
+    }
+  },
+  "total_docs": 942939,
+  "total_words": 20187633,
+  "dedup_removed": 199013,
+  "splits": {
+    "train": 923799,
+    "val": 9570,
+    "test": 9570
+  }
+}

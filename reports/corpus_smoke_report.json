@@ -1,0 +1,72 @@
+{
+  "per_source": {
+    "wiki_v0": {
+      "seen": 26332,
+      "kept": 14572,
+      "words": 626356,
+      "top_reject": "too_short",
+      "rejections": {
+        "not_kabyle_charset": 2463,
+        "too_short": 9088,
+        "low_alpha": 90,
+        "digit_heavy": 10,
+        "high_oov": 30,
+        "adhoc_orthography": 15,
+        "words_too_short": 46,
+        "punct_heavy": 9,
+        "repeated_lines": 7,
+        "words_too_long": 2
+      }
+    },
+    "kab_latn_v0": {
+      "seen": 40809,
+      "kept": 21366,
+      "words": 299923,
+      "top_reject": "too_short",
+      "rejections": {
+        "too_short": 14641,
+        "low_alpha": 48,
+        "not_kabyle_charset": 4690,
+        "digit_heavy": 32,
+        "adhoc_orthography": 14,
+        "punct_heavy": 1,
+        "words_too_short": 11,
+        "words_too_long": 1,
+        "high_oov": 5
+      }
+    },
+    "feraoun": {
+      "seen": 644,
+      "kept": 531,
+      "words": 31769,
+      "top_reject": "too_short",
+      "rejections": {
+        "too_short": 89,
+        "not_kabyle_charset": 20,
+        "high_oov": 3,
+        "words_too_short": 1
+      }
+    },
+    "dahmoune": {
+      "seen": 1270,
+      "kept": 929,
+      "words": 9721,
+      "top_reject": "too_short",
+      "rejections": {
+        "too_short": 200,
+        "not_kabyle_charset": 128,
+        "high_oov": 11,
+        "words_too_short": 1,
+        "adhoc_orthography": 1
+      }
+    }
+  },
+  "total_docs": 34328,
+  "total_words": 902586,
+  "dedup_removed": 3070,
+  "splits": {
+    "train": 33472,
+    "val": 428,
+    "test": 428
+  }
+}
